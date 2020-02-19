@@ -42,6 +42,8 @@ for each row in dt_list, save the current status (cur_time, cur_BM, cur_BMT):
     
 ## Export the ordered_BMT_dic to CSV
 calculate the average by accumulated value and count for every (Border, Measure, Time)
+### (The average value is not rounding to the nearest integer, it should be 114486 because of the 'rounding to the even' strategy. Used rounding up in the code instead.)
+
 write the CSV from ordered_BMT_dic into the output file.
 
 ## Running instruction
