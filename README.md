@@ -1,3 +1,5 @@
+# The insight.py contains 4 part of the data manipulation.
+
 ## Read CSV
 I used os package to find the parent directory of the file and enter the input file to read the CSV.
 After reading the CSV file, store the only information I need (Border, date, measure, value) into dt_list
